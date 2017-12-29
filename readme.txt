@@ -17,3 +17,6 @@ git reset --hard (version) 版本回退
 git reset --hard HEAD 回退当前版本，用于撤销提交到暂存区的文件
 git checkout -- file 撤销工作区的修改
 git status 查看当前仓库状态
+
+git remote add origin https://github.com/Binssss/mygit.git 上传本地仓库代码到github 远程仓库
+git push -u origin master 上传代码
